@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>Website title</title>
+	<meta name="description" content="website desc">
+	<meta name="author" content="Philip Bollen">
+	<link rel="stylesheet" href="css/styles.css?v=1.0">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="js/scripts.js"></script>
+</head>
+
+<body>
+	<div class="navbar"></div>
+	<div class="filler"></div>
+	<div class="footer"></div>
+</body>
+<script>
+	$("div.navbar").load("common/navbar.html");
+	$("div.filler").load("common/filler.html");
+	$("div.footer").load("common/footer.html");
+</script>
+
+</html>

@@ -1,0 +1,12 @@
+*:hover {
+    transition: 200ms;
+}
+
+body {
+    margin: 0;
+}
+
+.content {
+    padding-top: 4%;
+    margin: 2% 15%;
+}
